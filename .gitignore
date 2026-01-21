@@ -39,3 +39,25 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# large files and assets (keep original sources separate)
+Planb documentos/
+typography/*.zip
+
+# Exclude unused Next.js default assets (already removed, but ignore if they come back)
+public/next.svg
+public/vercel.svg
+public/file.svg
+public/globe.svg
+public/window.svg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
