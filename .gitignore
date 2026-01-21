@@ -35,10 +35,17 @@ yarn-error.log*
 
 # vercel
 .vercel
+.vercel.json
+
+# Git LFS pointer files (handled by LFS)
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# package lock (optional - Vercel can regenerate it)
+# Uncomment if you want to exclude it:
+# package-lock.json
 
 # large files and assets (keep original sources separate)
 Planb documentos/
