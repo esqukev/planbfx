@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.*
@@ -10,61 +10,96 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
+# Testing
 /coverage
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
 
-# next.js
+# Next.js
 /.next/
 /out/
+/standalone/
+/.swc/
 
-# production
+# Production builds
 /build
+/dist
 
-# misc
+# Misc
 .DS_Store
 *.pem
+*.log
 
-# debug
+# Debug files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+lerna-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Environment variables
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# vercel
+# Vercel
 .vercel
 .vercel.json
 
-# Git LFS pointer files (handled by LFS)
-
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
 
-# package lock (optional - Vercel can regenerate it)
-# Uncomment if you want to exclude it:
-# package-lock.json
-
-# large files and assets (keep original sources separate)
+# Large files and assets (keep original sources separate)
 Planb documentos/
 typography/*.zip
+*.pdf
+*.ai
+*.psd
 
-# Exclude unused Next.js default assets (already removed, but ignore if they come back)
+# Exclude unused Next.js default assets
 public/next.svg
 public/vercel.svg
 public/file.svg
 public/globe.svg
 public/window.svg
 
-# IDE
+# IDE and Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
 
-# OS
+# OS generated files
 Thumbs.db
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+.temp/
+
+# Package manager locks (optional - keep package-lock.json for consistency)
+# yarn.lock
+# pnpm-lock.yaml
+
+# Git LFS (handled automatically)
