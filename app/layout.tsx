@@ -16,17 +16,17 @@ const geistMono = Geist_Mono({
 const allRoundGothic = localFont({
   src: [
     {
-      path: "../typography/Demo_Fonts/Fontspring-DEMO-allroundgothic-bold.otf",
+      path: "./../typography/Demo_Fonts/Fontspring-DEMO-allroundgothic-bold.otf",
       weight: "700",
       style: "normal",
     },
     {
-      path: "../typography/Demo_Fonts/Fontspring-DEMO-allroundgothic-medium.otf",
+      path: "./../typography/Demo_Fonts/Fontspring-DEMO-allroundgothic-medium.otf",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../typography/Demo_Fonts/Fontspring-DEMO-allroundgothic-text.otf",
+      path: "./../typography/Demo_Fonts/Fontspring-DEMO-allroundgothic-text.otf",
       weight: "400",
       style: "normal",
     },
